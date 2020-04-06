@@ -15,3 +15,7 @@ fun main(args:Array<String>){
 }
 
 159 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+        println((a[0] * (a[0] - 1) / 2) + (a[1] * (a[1] - 1) / 2))
+}
