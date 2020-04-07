@@ -19,3 +19,12 @@ fun main(args:Array<String>){
     val a=readLine()!!.split(" ").map{it.toInt()}
         println((a[0] * (a[0] - 1) / 2) + (a[1] * (a[1] - 1) / 2))
 }
+158 A
+fun main(args:Array<String>){
+    val a=readLine()!!
+    if(a[0]==a[1] && a[1]==a[2]){
+        println("No")
+    }else {
+        println("Yes")
+    }
+}
