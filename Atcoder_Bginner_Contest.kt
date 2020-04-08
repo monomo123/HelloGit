@@ -28,3 +28,12 @@ fun main(args:Array<String>){
         println("Yes")
     }
 }
+157 A
+fun main(args:Array<String>){
+    val a=readLine()!!.toInt()
+    if (a%2==0){
+        println(a/2)
+    }else if (a%2==1){
+        println((a+1)/2)
+    }
+}
