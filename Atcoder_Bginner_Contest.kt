@@ -37,3 +37,12 @@ fun main(args:Array<String>){
         println((a+1)/2)
     }
 }
+156 A
+fun main(args:Array<String>){
+    var a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]<=9){
+        println(a[1]+(100*(10-a[0])))
+    }else{
+        println(a[1])
+    }
+}
