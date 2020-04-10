@@ -46,3 +46,14 @@ fun main(args:Array<String>){
         println(a[1])
     }
 }
+155 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]==a[1] && a[1]==a[2]){
+        println("No")
+    }else if (a[0]!=a[1] && a[1]!=a[2] && a[2]!=a[0]){
+        println("No")
+    } else {
+        println("Yes")
+    }
+}
