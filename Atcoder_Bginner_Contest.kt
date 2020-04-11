@@ -57,3 +57,23 @@ fun main(args:Array<String>){
         println("Yes")
     }
 }
+154 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split( " ")
+    val b=readLine()!!.split( " ").map{it.toInt()}
+    val c=readLine()!!
+   if (a[0]==c){
+        when {
+            b[0]-1>=1 ->{ println("$b[0]-1 $b[1]")}
+            b[0]-1==0 ->{ println("0 $b[1]")}
+        }
+    }else if (a[1]==c){
+        when {
+            b[1] - 1 >= 1 -> { println("$b[0] $b[1]-1") }
+            b[1] - 1 == 0 -> { println("0 $b[0]") }
+        }
+   }
+}
+
+
+
