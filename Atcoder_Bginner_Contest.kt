@@ -74,6 +74,15 @@ fun main(args:Array<String>){
         }
    }
 }
-
-
-
+153 A
+fun main(args:Array<String>){
+    val (a,b)=readLine()!!.split(" ").map{it.toInt()}
+    if (a<=b){
+        println(1)
+    }else if (a>b){
+        when {
+            a%b==0 -> {println(a/b)}
+            else   -> {println((a/b)+1)}
+        }
+    }
+}
