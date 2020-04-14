@@ -95,3 +95,13 @@ fun main(args:Array<String>){
         println("No")
     }
 }
+151 A
+fun main(args:Array<String>){
+    val a=readLine()!!
+    val b="abcdefghijklmnopqrstuvwxyz"
+    for (i in 0..25){
+        if (a == b[i].toString()){
+            println("${b[i+1]}")
+        }
+    }
+}
