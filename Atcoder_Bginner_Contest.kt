@@ -105,3 +105,12 @@ fun main(args:Array<String>){
         }
     }
 }
+150 A
+fun main (args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (500*a[0]>=a[1]){
+        println("Yes")
+    }else {
+        println("No")
+    }
+}
