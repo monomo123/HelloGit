@@ -114,3 +114,8 @@ fun main (args:Array<String>){
         println("No")
     }
 }
+149 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ")
+    println("${a[1]}${a[0]}")
+}
