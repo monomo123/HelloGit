@@ -119,3 +119,18 @@ fun main(args:Array<String>){
     val a=readLine()!!.split(" ")
     println("${a[1]}${a[0]}")
 }
+148 A
+fun main(args:Array<String>){
+    val ans : MutableList<Int> = mutableListOf(1,2,3)
+    val a=readLine()!!.toInt()
+    val b=readLine()!!.toInt()
+    ans.remove(a)
+    ans.remove(b)
+    println(ans[0])
+}
+fun main(args:Array<String>){
+    val a = listOf(1,2,3)
+    val b = readLine()!!.toInt()
+    val c = readLine()!!.toInt()
+    println((a.filterNot{it==b}.filterNot{it==c})[0])
+}
