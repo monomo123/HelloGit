@@ -134,3 +134,12 @@ fun main(args:Array<String>){
     val c = readLine()!!.toInt()
     println((a.filterNot{it==b}.filterNot{it==c})[0])
 }
+147 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]+a[1]+a[2]>=22){
+        println("bust")
+    }else{
+        println("win")
+    }
+}
