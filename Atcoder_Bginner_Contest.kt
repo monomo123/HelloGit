@@ -143,3 +143,18 @@ fun main(args:Array<String>){
         println("win")
     }
 }
+146 A
+fun main (args:Array<String>){
+    val a : MutableList<String> = mutableListOf("SUN","MON","TUE","WED","THU","FRI","SAT")
+    val b = readLine()!!
+    for (i in 0..6){
+        if (b==a[i]){
+            println(7-i)
+        }
+    }
+}
+fun main (args:Array<String>){
+    val a : MutableList<String> = mutableListOf("SUN","MON","TUE","WED","THU","FRI","SAT")
+    val b = readLine()!!
+    println(7-a.indexOf(b))
+}
