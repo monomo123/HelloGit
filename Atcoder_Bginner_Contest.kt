@@ -158,3 +158,8 @@ fun main (args:Array<String>){
     val b = readLine()!!
     println(7-a.indexOf(b))
 }
+145 A
+fun main (args:Array<String>){
+    val a=readLine()!!.toInt()
+    println(a*a)
+}
