@@ -163,3 +163,12 @@ fun main (args:Array<String>){
     val a=readLine()!!.toInt()
     println(a*a)
 }
+144 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]<=9 && a[1]<=9){
+        println(a[0]*a[1])
+    }else{
+        println(-1)
+    }
+}
