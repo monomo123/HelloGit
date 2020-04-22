@@ -1,3 +1,10 @@
+163 A
+import kotlin.math.PI
+
+fun main(args:Array<String>){
+    val a = readLine()!!.toInt()
+    println(2*a*PI)
+}
 161 A
 fun main(args: Array<String>) {
     val n = readLine()!!.split(" ").map{it.toInt()}
