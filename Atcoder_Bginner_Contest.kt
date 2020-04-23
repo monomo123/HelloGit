@@ -179,3 +179,12 @@ fun main(args:Array<String>){
         println(-1)
     }
 }
+143 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]<=a[1]*2){
+        println(0)
+    }else{
+        println(a[0]-a[1]*2)
+    }
+}
