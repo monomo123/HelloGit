@@ -188,3 +188,12 @@ fun main(args:Array<String>){
         println(a[0]-a[1]*2)
     }
 }
+142 A
+fun main(args:Array<String>){
+    val a = readLine()!!.toFloat()
+    if (a%2.0==0.0){
+        println(0.5)
+    }else{
+        println(((a+1.0)/2.0)/a)
+    }
+}
