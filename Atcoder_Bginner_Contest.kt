@@ -197,3 +197,13 @@ fun main(args:Array<String>){
         println(((a+1.0)/2.0)/a)
     }
 }
+141 A
+fun main(args:Array<String>){
+    val tenki=listOf("Sunny","Cloudy","Rainy","Sunny")
+    val a=readLine()!!
+    for (i in 0..2){
+        if (a==tenki[i]){
+            println(tenki[i+1])
+        }
+    }
+}
