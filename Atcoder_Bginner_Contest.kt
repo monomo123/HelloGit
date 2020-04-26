@@ -1,3 +1,12 @@
+164 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]>a[1]){
+        println("safe")
+    }else{
+        println("unsafe")
+    }
+}
 163 A
 import kotlin.math.PI
 
