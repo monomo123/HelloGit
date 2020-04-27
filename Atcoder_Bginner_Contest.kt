@@ -216,3 +216,9 @@ fun main(args:Array<String>){
         }
     }
 }
+86 B
+fun main(args:Array<String>){
+    val a=readLine()!!.replace(" ","").toDouble()
+    val b=Math.sqrt(a).toInt().toDouble()
+    println(if (a==Math.pow(b,2.0)) "Yes" else "No")
+}
