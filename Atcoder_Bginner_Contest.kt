@@ -222,3 +222,12 @@ fun main(args:Array<String>){
     val b=Math.sqrt(a).toInt().toDouble()
     println(if (a==Math.pow(b,2.0)) "Yes" else "No")
 }
+85 A
+fun main(args:Array<String>){
+    val a=readLine()!!.toInt()
+    val b= mutableSetOf<Int>()
+    for (i in 1..a){
+        b.add(readLine()!!.toInt())
+    }
+    println(b.size)
+}
