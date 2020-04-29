@@ -222,7 +222,7 @@ fun main(args:Array<String>){
     val b=Math.sqrt(a).toInt().toDouble()
     println(if (a==Math.pow(b,2.0)) "Yes" else "No")
 }
-85 A
+85 B
 fun main(args:Array<String>){
     val a=readLine()!!.toInt()
     val b= mutableSetOf<Int>()
@@ -230,4 +230,15 @@ fun main(args:Array<String>){
         b.add(readLine()!!.toInt())
     }
     println(b.size)
+}
+84 B
+fun main(args:Array<String>){
+    val (a,d)=readLine()!!.split(" ").map{it.toInt()}
+    val b=readLine()!!
+    val c="[0-9]{$a}-[0-9]{$d}".toRegex()
+    if (c.matches(b)){
+        println("Yes")
+    }else{
+        println("No")
+    }
 }
