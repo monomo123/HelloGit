@@ -216,6 +216,52 @@ fun main(args:Array<String>){
         }
     }
 }
+159 B　×
+fun main (args:Array<String>) {
+    val a = readLine()!!
+    val b = (a.length / 2) - 1
+    if (a.length % 2 == 0) {
+        if (Regex(a.slice(0..b)).matches(a.slice((a.length / 2)..(a.length - 1)))) {
+            if (Regex(a.slice(0..((b / 2) - 1))).matches(a.slice((b / 2) + 1..b))) {
+                println("Yes")
+            } else {
+                println("No")
+            }
+        } else {
+            println("No")
+        }
+    }else if (a.length%2==1){
+        if (Regex(a.slice(0..b)).matches(a.slice(((a.length / 2)+1)..(a.length - 1)))) {
+            if (Regex(a.slice(0..((b / 2) - 1))).matches(a.slice((b / 2) + 1..b))) {
+                println("Yes")
+            } else {
+                println("No")
+            }
+        } else {
+            println("No")
+        }
+    }
+}
+fun main (args:Array<String>) {
+    val a = readLine()!!
+    if (a!=a.reversed()){
+        println("No")
+        return
+    }
+    val b=a.substring(0,(a.length-1)/2)
+    if (b != b.reversed()) {
+        println("No")
+        return
+    }
+
+    val c = a.substring(((a.length + 3) / 2) - 1, a.length)
+    if (c != c.reversed()) {
+        println("No")
+        return
+    }
+    println("Yes")
+}
+
 86 B
 fun main(args:Array<String>){
     val a=readLine()!!.replace(" ","").toDouble()
