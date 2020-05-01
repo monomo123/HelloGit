@@ -14,6 +14,17 @@ fun main(args:Array<String>){
     val a = readLine()!!.toInt()
     println(2*a*PI)
 }
+162 A
+fun main(args:Array<String>){
+    val a=readLine()!!
+    for (i in 0..a.length-1){
+        if (a[i].toString() == "7"){
+            println("Yes")
+            return
+        }
+    }
+    println("No")
+}
 161 A
 fun main(args: Array<String>) {
     val n = readLine()!!.split(" ").map{it.toInt()}
