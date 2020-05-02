@@ -24,7 +24,7 @@ fun main(args:Array<String>){
         }
     }
     println("No")
-}
+} 
 161 A
 fun main(args: Array<String>) {
     val n = readLine()!!.split(" ").map{it.toInt()}
@@ -225,6 +225,16 @@ fun main(args:Array<String>){
         if (a==tenki[i]){
             println(tenki[i+1])
         }
+    }
+}
+88 A
+fun main(args:Array<String>){
+    val a=readLine()!!.toInt()
+    val b=readLine()!!.toInt()
+    if (a%500<=b){
+        println("Yes")
+    }else{
+        println("No")
     }
 }
 159 B　×
