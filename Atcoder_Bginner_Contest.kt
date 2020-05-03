@@ -237,6 +237,13 @@ fun main(args:Array<String>){
         println("No")
     }
 }
+87 A
+fun main(args:Array<String>){
+    val a=readLine()!!.toInt()
+    val b=readLine()!!.toInt()
+    val c=readLine()!!.toInt()
+    println(a-b-(((a-b)/c)*c))
+}
 159 B　×
 fun main (args:Array<String>) {
     val a = readLine()!!
