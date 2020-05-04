@@ -244,6 +244,15 @@ fun main(args:Array<String>){
     val c=readLine()!!.toInt()
     println(a-b-(((a-b)/c)*c))
 }
+86 A
+fun main(args:Array<String>){
+    val a=readLine()!!.split(" ").map{it.toInt()}
+    if (a[0]*a[1]%2==0){
+        println("Even")
+    }else{
+        println("Odd")
+    }
+}
 159 B　×
 fun main (args:Array<String>) {
     val a = readLine()!!
